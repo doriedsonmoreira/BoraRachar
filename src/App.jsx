@@ -1,7 +1,9 @@
+import ScreenRegister from "./assets/Pages/ScreenRegister";
+
 function App() {
   return (
     <>
-      <h1>testee</h1>
+      <ScreenRegister />
     </>
   );
 }
