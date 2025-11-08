@@ -2,6 +2,7 @@ import HeaderImage from "../images/HeaderImage.png";
 import InputField from "./InputField";
 import InputDate from "./InputDate";
 import InputNote from "./InputeNote";
+import SubmitButton from "./SubmitButton";
 
 function ConteinerRegister() {
   return (
@@ -16,6 +17,7 @@ function ConteinerRegister() {
         <InputDate />
         <InputField tittleInput="Digite seu Telefone" placeholder="Telefone" />
         <InputNote />
+        <SubmitButton />
       </form>
     </div>
   );
