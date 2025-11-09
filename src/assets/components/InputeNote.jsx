@@ -12,7 +12,7 @@ function InputNote({ value, onChange }) {
             key={option}
             type="button"
             onClick={() => onChange(option)}
-            className={`w-[110px] h-[30px] rounded-[20px] font-bold border border-[#004B18] transition-colors duration-300 ease-in-out
+            className={`w-[110px] h-[30px]  rounded-[20px] font-bold border border-[#004B18] transition-colors duration-300 ease-in-out
               ${
                 value === option
                   ? "bg-[#004B18] text-white"

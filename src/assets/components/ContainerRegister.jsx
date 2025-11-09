@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HeaderImage from "../images/HeaderImage.png";
+import logoBackground from "../images/logoBackground.png";
 import InputField from "./InputField";
 import InputDate from "./InputDate";
 import InputNote from "./InputeNote";
@@ -55,13 +55,18 @@ function ConteinerRegister() {
   };
 
   return (
-    <div className="w-[583px] h-[800px] bg-white rounded-[30px] shadow-[0_10px_15px_rgba(0,0,0,0.3)]">
+    <div className="flex  w-[1000px] h-[670px] bg-white rounded-[30px] shadow-[0_10px_15px_rgba(0,0,0,0.3)]">
       <span>
-        <img src={HeaderImage} alt="Header" />
+        <img
+          src={logoBackground}
+          alt="Header"
+          className="rounded-tl-[25px] rounded-bl-[25px]"
+        />
       </span>
+
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col pt-[30px] gap-4 items-center justify-center"
+        className="flex flex-col pt-[30px] gap-4 items-center justify-center ml-[35px] mb-[30px]"
       >
         <InputField
           tittleInput="Digite seu nome"

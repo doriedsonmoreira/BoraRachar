@@ -1,11 +1,11 @@
 import ConteinerRegister from "../components/ContainerRegister";
-import backgroundCampo from "../images/backgroundCampo.jpg";
+import backgroundImage from "../images/backgroundImage.png";
 
 function ScreenRegister() {
   return (
     <section
       className="w-screen h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundCampo})` }}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <ConteinerRegister />
     </section>
