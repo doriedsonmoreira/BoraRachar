@@ -55,11 +55,10 @@ function ConteinerRegister() {
   };
 
   return (
-    <div className="w-[583px] h-[800px] bg-white rounded-[30px]">
+    <div className="w-[583px] h-[800px] bg-white rounded-[30px] shadow-[0_10px_15px_rgba(0,0,0,0.3)]">
       <span>
         <img src={HeaderImage} alt="Header" />
       </span>
-
       <form
         onSubmit={handleSubmit}
         className="flex flex-col pt-[30px] gap-4 items-center justify-center"
